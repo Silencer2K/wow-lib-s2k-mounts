@@ -1,7 +1,7 @@
 LibS2kMounts
 ============
 
-A library to convert internal MountId to SpellId.
+A library to convert internal MountId (e.g. returned by GetActionInfo) to SpellId.
 
 Synopsis:
 ---------
