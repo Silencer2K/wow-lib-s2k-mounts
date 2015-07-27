@@ -3,7 +3,7 @@ local MAJOR, MINOR = "LibS2kMounts-1.0", 1
 local lib, oldMinor = LibStub:NewLibrary(MAJOR, MINOR)
 if not lib then return end
 
-local S2K_MOUNTS_ID_TO_SPELL = {
+S2K_MOUNTS_ID_TO_SPELL = {
     [6] = 458,      [7] = 459,      [8] = 468,      [9] = 470,      [11] = 472,
     [12] = 578,     [13] = 579,     [14] = 580,     [15] = 581,     [17] = 5784,
     [18] = 6648,    [19] = 6653,    [20] = 6654,    [21] = 6777,    [22] = 6896,
